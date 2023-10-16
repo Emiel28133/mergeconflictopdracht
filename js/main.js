@@ -17,8 +17,7 @@ function student1Haiku()
 
 haikus = [
     basicHaiku()
-    student1Haiku()
-    student2()
+
 ]
 
 function randomHaiku()
@@ -39,5 +38,8 @@ function student2(){
     console.log("verkopen jullie hier ook watermeloen??", "meneer u mag hier niet fietsen")
     
 }
+
+console.log(student1Haiku, student2);
+    
 
 start()
