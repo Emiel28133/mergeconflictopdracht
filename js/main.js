@@ -10,8 +10,14 @@ function basicHaiku()
 }
 //zet hier je haiku functie neer, zie https://github.com/progsen/haikugitopdracht voor ideeen
 
+function student1Haiku()
+{
+    return ["Crunchy hazelnut","Creamy layers in delight","Kinder Bueno's treat."]
+}
+
 haikus = [
     basicHaiku()
+    student1Haiku()
 ]
 
 function randomHaiku()
